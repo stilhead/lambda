@@ -60,7 +60,7 @@ public class Main {
 
         System.out.println(str);*/
 
-        //Stream.generate(()->5).limit(10).forEach(System.out::println);
+        Stream.generate(()->5).limit(10).forEach(System.out::println);
 
         Stream.
                 of(LocalDate.now(), LocalDate.of(1992, 12,21),  LocalDate.of(1992, 12,21))

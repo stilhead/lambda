@@ -9,6 +9,7 @@ public class Employee {
         this.name = name;
         this.age = age;
         count++;
+        count++;
     }
 
     public static String getCompany() {
